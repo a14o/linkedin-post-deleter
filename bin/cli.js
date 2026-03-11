@@ -11,16 +11,10 @@ program
   .argument("<count>", "number of posts to delete")
   .option("-v, --verbose", "verbose output")
   .parse();
-
 const count = parseInt(program.args[0], 10);
 
 if (isNaN(count) || count <= 0) {
   console.error("Please provide a valid number of posts to delete.");
-  process.exit(1);
-}
-
-if (!count) {
-  console.log("Usage: linkedin-cleaner <number-of-posts>");
   process.exit(1);
 }
 
