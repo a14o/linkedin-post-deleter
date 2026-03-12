@@ -16,7 +16,7 @@
     "playwright",
     "cli"
   ],
-  "author": "Your Name",
+  "author": "Isa",
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",
